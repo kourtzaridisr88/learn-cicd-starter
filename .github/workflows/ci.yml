@@ -42,3 +42,7 @@ jobs:
 
       - name: Run staticcheck
         run: staticcheck ./...
+
+      - name: Code Review GPT
+        uses: mattzcarey/code-review-gpt@v0.1.10
+            
